@@ -1,0 +1,33 @@
+.form {
+  padding: 3rem;
+  background-color: rgb(72, 72, 72);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 2rem;
+  align-items: center;
+  background-color: rgb(171, 171, 171);
+  height: 80vh;
+}
+
+.listItem {
+  width: 9em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.update {
+  padding: 0.1em;
+  padding-left: 0.4em;
+  border-radius: 1em;
+  border: none;
+  outline: none;
+  background-color: rgb(237, 237, 237);
+}
